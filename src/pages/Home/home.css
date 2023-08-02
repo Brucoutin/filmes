@@ -2,6 +2,7 @@
 .lista-filmes{
     max-width: 800px;
     margin: 14px auto;
+    background-color: black;
     
 }
 .loading{
@@ -9,6 +10,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 14px;
+    background-color: black;
 }
 .lista-filmes article{
     width: 100%;

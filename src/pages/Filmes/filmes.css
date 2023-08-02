@@ -4,6 +4,7 @@
     flex-direction: column;
     max-width: 800px;
     padding: 0 8px;
+    background-color: black;
     
 }
 .filme-info h1{
