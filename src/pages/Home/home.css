@@ -2,6 +2,7 @@
 .lista-filmes{
     max-width: 800px;
     margin: 14px auto;
+    
 }
 .loading{
     display: flex;
@@ -11,7 +12,7 @@
 }
 .lista-filmes article{
     width: 100%;
-    background-color: #fff;
+    background-color: black;
     padding: 15px;
     border-radius: 4px;
 }

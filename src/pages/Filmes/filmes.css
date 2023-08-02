@@ -8,6 +8,7 @@
 }
 .filme-info h1{
     margin: 14px 0;
+    color:#fff
 }
 .filme-info img{
     border-radius: 8px;
@@ -18,9 +19,14 @@
 }
 .filme-info h3{
     margin-top: 14px;
+    color: #fff;
 }
 .filme-info span{
     margin: 8px 0;
+    color: #fff;
+}
+.filme-info strong{
+    color: #fff;
 }
 
 .button button{
@@ -36,6 +42,7 @@
     margin: 10px;
     margin-left: 0px;
 }
+
 .button a{
     text-decoration: none;
     color: black;
