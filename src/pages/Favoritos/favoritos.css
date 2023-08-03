@@ -16,7 +16,6 @@
 .meus-favoritos ul{
     color:#fff;
     width: 720px;
-
 }
 .meus-favoritos ul li{
     list-style: none;
@@ -34,4 +33,20 @@
     text-decoration: none;
     color: #116feb;
     margin-right: 14px;
+}
+.meus-favoritos button{
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+.meus-favoritos button a:hover{
+    transition: all 0.5s;
+  
+}
+.meus-favoritos button:hover{
+  background-color: brown;
+  color: #fff;
+
 }
