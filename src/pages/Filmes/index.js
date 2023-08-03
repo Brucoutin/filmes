@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import api from "../../services/api";
+import { toast } from 'react-toastify';
 import './filmes.css';
 function Filmes() {
+
     const { id } = useParams();
     const navigate = useNavigate();
     const [filme, setFilme] = useState({})
@@ -45,13 +47,15 @@ function Filmes() {
         let filmeSalvo = JSON.parse(minhalista) || []
         const filmes = filmeSalvo.some((moviesave)=> moviesave.id === filme.id )
         if(filmes){
-            alert('esse filme já foi salvo!')
+        toast.warn('esse filme já está na lista!')
             return
         }
         filmeSalvo.push(filme)
         localStorage.setItem("@prime", JSON.stringify(filmeSalvo))
-        alert('filme salvo com sucesso!')
+
+        toast.success("Filme salvo com sucesso!")
     }
+    
     return (
         <div className="filme-info">
             <h1>
