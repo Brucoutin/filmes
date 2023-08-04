@@ -37,7 +37,7 @@ function Filmes() {
         return (
             <div className="filme-info">
                 <h1>
-                    Carregando detalhe...
+                    Carregando detalhes...
                 </h1>
             </div>
         )
